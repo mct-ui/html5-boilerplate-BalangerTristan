@@ -15,6 +15,15 @@ html {
     color: #111;
     padding: 24px 24px 0;
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 /*
@@ -188,6 +197,10 @@ td {
     h1 {
         font-size: 58px;
         line-height: 64px;
+    }
+    h2{
+        font-size: 32px;
+        line-height: 48px;
     }
 }
 
